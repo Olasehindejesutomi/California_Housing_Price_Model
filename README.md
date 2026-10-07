@@ -13,8 +13,6 @@ A machine learning regression project that predicts median house values in Calif
 - [Installation](#installation)
 - [Usage](#usage)
 - [Project Structure](#project-structure)
-- [Future Improvements](#future-improvements)
-- [License](#license)
 
 ---
 
@@ -112,20 +110,3 @@ The dataset is downloaded automatically by scikit-learn on first run, so an inte
 └── README.md
 ```
 
-## Future Improvements
-
-- Try non-linear models (Random Forest, Gradient Boosting, XGBoost)
-- Add cross-validation and hyperparameter tuning with `GridSearchCV`
-- Report additional metrics (RMSE, MAE)
-- Engineer new features (e.g., rooms per person, distance to coast)
-- Handle the capped target values (house values are capped at $500k)
-- Deploy as a web app (Streamlit or Flask)
-- Save the trained pipeline with `joblib`
-
-## License
-
-This project is licensed under the MIT License. Add a `LICENSE` file to the repository to make it official.
-
-## Acknowledgments
-
-- Dataset: Pace, R. K., & Barry, R. (1997). *Sparse Spatial Autoregressions*, via [scikit-learn](https://scikit-learn.org/stable/datasets/real_world.html#california-housing-dataset)
